@@ -67,33 +67,6 @@ FingerprintJS	Empreinte	Rotation de fingerprints
 
     Rotation des identités
 
-📊 Architecture Technique
-text
-
-┌─────────────────────────────────────────────────────────┐
-│                   Interface Graphique                   │
-│                    (CustomTkinter)                      │
-└────────────────────────┬────────────────────────────────┘
-                         │
-┌────────────────────────v────────────────────────────────┐
-│                    Moteur Principal                     │
-├─────────────────────────────────────────────────────────┤
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐   │
-│  │   Personas   │  │  Navigation  │  │   Trackers   │   │
-│  │   Generator  │  │    Engine    │  │   Detector   │   │
-│  └──────────────┘  └──────────────┘  └──────────────┘   │
-└────────────────────────┬────────────────────────────────┘
-                         │
-┌────────────────────────v────────────────────────────────┐
-│                    Base de Données                      │
-│                     (SQLite optimisée)                  │
-└────────────────────────┬────────────────────────────────┘
-                         │
-┌────────────────────────v────────────────────────────────┐
-│                       API REST                          │
-│                    (Flask + CORS)                       │
-└─────────────────────────────────────────────────────────┘
-
 🚀 Installation
 📋 Prérequis
 
@@ -220,40 +193,6 @@ Faux comptes	Identités créées	>20
 
     Performances système : CPU/RAM en temps réel
 
-🖼️ Captures d'écran
-<div align="center">
-Dashboard Principal
-text
-
-┌─────────────────────────────────────────────────────┐
-│  🎯 78%    👥 23    📊 1452    🕵️ 156    ⚡ 89/min  │
-├─────────────────────────────────────────────────────┤
-│                                                     │
-│           [Graphique de confusion]                  │
-│                                                     │
-├─────────────────────────────────────────────────────┤
-│  Personas Actifs          |  Trackers détectés      │
-│  • Julie (32) - Voyage    |  • Google Analytics     │
-│  • Pierre (45) - Tech     |  • Facebook Pixel       │
-│  • Sophie (28) - Mode     |  • DoubleClick          │
-│  • Thomas (51) - Auto     |  • Amazon Ads           │
-└─────────────────────────────────────────────────────┘
-
-Configuration
-text
-
-┌─────────────────────────────────────────────────────┐
-│  ⚙️ CONFIGURATION                                  │
-├─────────────────────────────────────────────────────┤
-│  Personas:    [████████░░░░] 25/50                  │
-│  Intensité:   [███████░░░░░] 70%                    │
-│                                                     │
-│  ☑ Simulation d'achats                            │
-│  ☑ Faux comptes réseaux                           │
-│  ☑ Mode caméléon                                  │
-│  ☐ Machine Learning (beta)                         │
-└─────────────────────────────────────────────────────┘
-
 </div>
 🔧 Configuration avancée
 📁 Fichier de configuration
@@ -377,3 +316,4 @@ Distribué sous la licence MIT. Voir LICENSE pour plus d'informations.
 ⬆ Retour en haut
 
 </div> ```
+
