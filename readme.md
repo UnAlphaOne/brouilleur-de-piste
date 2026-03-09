@@ -22,14 +22,19 @@ FAQ
     "Si vous ne pouvez pas les battre, noyez-les dans le bruit."
 
 Le Brouilleur de Piste est une IA défensive qui génère un bruit numérique crédible autour de votre activité réelle. Au lieu de simplement bloquer les traceurs (ce qui vous signale comme cible intéressante), cette solution crée des milliers de signaux contradictoires qui rendent votre profil inexploitable.
+
 🔄 Comment ça marche ?
+
 ✨ Fonctionnalités
+
 🧠 IA Comportementale Avancée
+
 Fonctionnalité	Description
 50+ personas simultanés	Création de profils fictifs ultra-réalistes
 Personnalités uniques	Âge, profession, centres d'intérêt, humeurs
 IA comportementale	Adaptation des comportements selon le contexte
 Heures d'activité réalistes	Simulation de rythmes de vie crédibles
+
 🕵️ Détection de Trackers
 Tracker	Type	Contre-mesure
 Google Analytics	Analytics	Spoofing de données
@@ -37,6 +42,7 @@ Facebook Pixel	Pixel	Génération d'événements factices
 DoubleClick	Publicitaire	Clics aléatoires
 Amazon Ads	Publicitaire	Simulations d'achat
 FingerprintJS	Empreinte	Rotation de fingerprints
+
 🌐 Navigation Humaine
 
     Mouvements de souris avec courbes de Bézier
@@ -76,6 +82,7 @@ FingerprintJS	Empreinte	Rotation de fingerprints
 
     Connexion internet
 
+
 ⚙️ Installation rapide
 bash
 
@@ -92,6 +99,7 @@ playwright install chromium
 # 4. Lancer l'application
 python brouilleur_piste_v3.py
 
+
 📦 Dépendances principales
 txt
 
@@ -104,6 +112,7 @@ psutil==5.9.6
 numpy==1.24.3
 pandas==2.1.3
 scipy==1.11.4
+
 
 🎮 Démarrage rapide
 1️⃣ Interface Graphique
@@ -133,6 +142,7 @@ bash
 # - Démarrer la navigation simulée
 # - Détecter les trackers
 # - Générer des métriques en temps réel
+
 
 🌐 API REST
 📡 Endpoints disponibles
@@ -174,6 +184,7 @@ json
   "memory_usage": 512.8
 }
 
+
 📈 Métriques en temps réel
 🎯 KPIs surveillés
 Métrique	Description	Objectif
@@ -183,6 +194,7 @@ Bruit	Signaux générés	>1000/h
 Trackers	Détections	>100
 Achats simulés	Faux paniers	>50
 Faux comptes	Identités créées	>20
+
 📊 Graphiques disponibles
 
     Score de confusion : Évolution sur 24h
@@ -194,6 +206,7 @@ Faux comptes	Identités créées	>20
     Performances système : CPU/RAM en temps réel
 
 </div>
+
 🔧 Configuration avancée
 📁 Fichier de configuration
 json
@@ -222,23 +235,7 @@ export BROUILLEUR_DATA_RETENTION=90
 # Lancement
 python brouilleur_piste_v3.py
 
-📚 Structure du projet
-text
 
-brouilleur-de-piste/
-├── brouilleur_piste_v3.py      # Application principale
-├── requirements.txt             # Dépendances
-├── README.md                    # Documentation
-├── config/                      # Configurations
-│   ├── default.json
-│   └── advanced.json
-├── backups/                     # Sauvegardes auto
-├── exports/                     # Exports CSV/JSON
-├── logs/                        # Fichiers de log
-│   └── brouilleur.log
-└── docs/                        # Documentation
-    ├── API.md
-    └── GUIDE.md
 
 🛡️ Sécurité & Éthique
 ⚠️ Avertissements
@@ -260,6 +257,7 @@ brouilleur-de-piste/
     Surveillez les métriques pour ajuster la configuration
 
     Exportez régulièrement vos données
+
 
 🤝 Contribution
 
@@ -290,6 +288,7 @@ Les contributions sont les bienvenues !
 
     Support mobile
 
+
 📜 License
 
 Distribué sous la licence MIT. Voir LICENSE pour plus d'informations.
@@ -316,4 +315,5 @@ Distribué sous la licence MIT. Voir LICENSE pour plus d'informations.
 ⬆ Retour en haut
 
 </div> ```
+
 
