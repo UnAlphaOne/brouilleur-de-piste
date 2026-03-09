@@ -1,11 +1,10 @@
 🛡️ Brouilleur de Piste - Le Paradoxe de la Confidentialité
 <div align="center">
 
-https://img.shields.io/badge/version-3.0-blue
-https://img.shields.io/badge/python-3.8+-green
-https://img.shields.io/badge/license-MIT-orange
-https://img.shields.io/badge/PRs-welcome-brightgreen
-https://img.shields.io/badge/maintenance-active-success
+![Python](https://img.shields.io/badge/python-3.8+-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Version](https://img.shields.io/badge/version-3.0-orange)
+![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
 ![Downloads](https://img.shields.io/github/downloads/UnAlphaOne/brouilleur-de-piste/total)
 ![Stars](https://img.shields.io/github/stars/UnAlphaOne/brouilleur-de-piste)
 
@@ -376,4 +375,5 @@ Distribué sous la licence MIT. Voir LICENSE pour plus d'informations.
 ⭐ N'oubliez pas de laisser une étoile si ce projet vous a été utile ! ⭐
 
 ⬆ Retour en haut
+
 </div> ```
